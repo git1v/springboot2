@@ -2,13 +2,13 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-<title>Title</title>
+<title th:text="${title}"></title>
 <style>
     body { padding: 10px; color:#666; }
 </style>
 </head>
 <body>
-	<h1>This is Test page</h1>
-	<p>made static page called Controller</p>
+	<h1 th:text="${title}"></h1>
+	<p th:text="${message}"></p>
 </body>
 </html>
